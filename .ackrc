@@ -1,0 +1,14 @@
+--sort-files
+--color
+--color-filename=magenta
+--color-lineno=green
+--color-match=bold red
+
+--ignore-dir=.idea
+--ignore-dir=.git
+--ignore-dir=target
+
+--ignore-file=match:tag
+--ignore-file=match:oryx.js
+
+--pager=less -RFX
